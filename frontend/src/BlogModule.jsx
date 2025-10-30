@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import './App.css';
 import { useRef } from "react";
 
-const API_BASE_URL='http://localhost:3001'
+const API_BASE_URL='https://my-blog-app-backend-yfwo.onrender.com'
 const API_URL=`${API_BASE_URL}/api/posts`;
 
 export default function BlogModule()
