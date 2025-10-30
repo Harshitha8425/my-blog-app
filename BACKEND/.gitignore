@@ -1,0 +1,4 @@
+node_modules
+#ignores our node_modules folder when we are sending data to github
+.env
+#ignores our environment variables
