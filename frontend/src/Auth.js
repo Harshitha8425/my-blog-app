@@ -15,7 +15,7 @@ export default function AuthPage()
      const handleRegister=async(event) => {
         event.preventDefault();
         try{
-            const response=await fetch('http://localhost:3001/api/auth/register',{
+            const response=await fetch('https://my-blog-app-backend-yfwo.onrender.com/api/auth/register',{
                 method:'POST',
                 headers:{'Content-Type':'application/json'},
                 body:JSON.stringify({name:registerName,email:registerEmail,password:registerPassword})
@@ -30,7 +30,7 @@ export default function AuthPage()
      const handleLogin=async(event)=>{
         event.preventDefault();
         try{
-            const response=await fetch('http://localhost:3001/api/auth/login',{
+            const response=await fetch('https://my-blog-app-backend-yfwo.onrender.com/api/auth/login',{
                 method:'POST',
                 headers:{'Content-Type':'application/json'},
                 body:JSON.stringify({email:loginEmail,password:loginPassword})
