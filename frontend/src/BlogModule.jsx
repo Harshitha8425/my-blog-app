@@ -87,7 +87,7 @@ export default function BlogModule()
 
   return(
     <div className="app-container">
-      {/* <button onClick={handleLogout} style={{float:'right',padding:'10px',margin:'10px'}}>Log Out</button> */}
+      {*/ <button onClick={handleLogout} style={{float:'right',padding:'10px',margin:'10px'}}>Log Out</button> */}
      <div className="form-section">
       <h2>Create a New Posts</h2>
       <form onSubmit={handleSubmit}>
